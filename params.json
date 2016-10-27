@@ -1,0 +1,6 @@
+{
+  "name": "BRADSHAW MARINA",
+  "tagline": "MVC Solution For MarinaBradshaw Case Study",
+  "body": "### Summary\r\nThis Solution is implemented in Java 8 and it is completely developed in three tier architecture (MVC). It provides a modern and easy to use interface. It is the result of a team work in Java Programming Course.\r\n![Main View](https://cloud.githubusercontent.com/assets/12819018/19774720/0755ad44-9c3c-11e6-86b1-5cf9106c5e21.png)\r\n\r\n### Special Features and Technologies Used\r\n- Custom Event Handlers\r\n- Collections\r\n- MVC Design Pattern\r\n- Read/Write to/from XML File\r\n\r\n### Application Overview\r\nThe Application has a main view with side bar buttons for easy browsing between different views.\r\n* Manage Customers View\r\n![Main View](https://cloud.githubusercontent.com/assets/12819018/19774725/0cf51320-9c3c-11e6-95d1-8a62bcb5e3f6.png)\r\nProvides a table model which contains all customers summary and from a tool tip menu the user can access all the customers data, including lease information and its boat(s).\r\n\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
