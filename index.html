@@ -46,12 +46,23 @@
 <img src="https://cloud.githubusercontent.com/assets/12819018/19774720/0755ad44-9c3c-11e6-86b1-5cf9106c5e21.png" alt="Main View"></p>
 
 <h3>
+<a id="application-background" class="anchor" href="#application-background" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Application Background</h3>
+
+<p>BradShaw Marina is a privately owned corporation that rents boats and provides boat services on a lake
+Needs automated system to:
+Track:
+Customers, leased slips, and boats in the slips
+Tasks: creating lease, computing lease amount, assigning boats
+Search: 
+vacant slips leased to specific customers </p>
+
+<h3>
 <a id="special-features-and-technologies-used" class="anchor" href="#special-features-and-technologies-used" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Special Features and Technologies Used</h3>
 
 <ul>
-<li>Custom Event Handlers</li>
 <li>Collections</li>
 <li>MVC Design Pattern</li>
+<li>Custom Event Handlers</li>
 <li>Read/Write to/from XML File</li>
 </ul>
 
@@ -63,8 +74,23 @@
 <ul>
 <li>Manage Customers View
 <img src="https://cloud.githubusercontent.com/assets/12819018/19774725/0cf51320-9c3c-11e6-95d1-8a62bcb5e3f6.png" alt="Main View">
-Provides a table model which contains all customers summary and from a tool tip menu the user can access all the customers data, including lease information and its boat(s).</li>
+Provides a table model which contains all customers summary and from a tool tip menu the user can access all the customers data, including lease information and its boat(s). The view has editing functionality, so every modification to customer's data is saved with a simple Save button Action.
+In order to register a new customer and a new lease contract, the application user has to complete and submit:</li>
+<li> Customer Information Form
+<img src="https://cloud.githubusercontent.com/assets/12819018/19774729/11b29e00-9c3c-11e6-8ddb-1e14082f4b44.png" alt="Add Customer View">
+</li>
+<li>Boat Information and Appropriate Slip choosing Form
+<img src="https://cloud.githubusercontent.com/assets/12819018/19774733/15d6364a-9c3c-11e6-9a8b-ea408b1d3df8.png" alt="Add Boat View">
+</li>
+<li>Lease Terms Form
+<img src="https://cloud.githubusercontent.com/assets/12819018/19774747/19075fa6-9c3c-11e6-989c-201c610d4a7e.png" alt="Lease Form">
+</li>
 </ul>
+
+<p>The Application writes to an XML File the new customer and refreshes the main view. It uses Custom Event Handlers to pass data from one form to another, making sure no partial or invalid data is saved to the file.</p>
+
+<p>Also, the user has a handy tool to check the current price of a particular slip according to different features
+<img src="https://cloud.githubusercontent.com/assets/12819018/19774751/1b88c6f2-9c3c-11e6-9106-76cde62f82cc.png" alt="Check Price View"></p>
       </section>
       <footer>
         <p>Project maintained by <a href="https://github.com/Valetnina">Valetnina</a></p>
